@@ -1,0 +1,73 @@
+#rent{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    margin-left: 30px;
+}
+
+.sticky-icon{
+    z-index:1;
+	position:fixed;
+	top:50%;
+	right:0%;
+	width:100px;
+	display:flex;
+	flex-direction:column;
+}  
+
+.Line{
+    color: black;
+}
+
+.Facebook{
+    color: black;
+}
+
+.Tel{
+    color: black;
+}
+
+.car1{
+    padding-top: 5%;
+    box-shadow: 50px 50px #406A8D;
+}
+
+
+.bl{
+    margin-right: 50px;
+}
+
+.con {
+    overflow: hidden;
+    padding-top: 50px;
+}
+.con .slider {
+    animation: slidein 30s linear infinite;
+    white-space: nowrap;
+}
+.con .slider .logos {
+    width: 100%;
+    display: inline-block;
+    margin: 0px 0;
+}
+.con .slider .logos .fab {
+    width: calc(100% / 5);
+    animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+}
+
+@keyframes slidein {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(-100%, 0, 0);
+    }
+  }
+  @keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }

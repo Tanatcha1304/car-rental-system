@@ -1,0 +1,110 @@
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800;900&display=swap');
+
+    h1 {
+        text-align: center;
+    }
+
+    form {
+        text-align: center;
+    }
+
+
+.background-image {
+  background-image: url("https://i.ibb.co/j6Fszxv/bg4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+footer {
+  background-color: #fafafc;
+  color: #406a8d;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  height: 42px;
+  bottom: 0;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 280;
+  line-height: 18px;
+}
+
+.pickup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pickup-input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.pickup-input-container input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  font-size: 16px;
+  width: 400px;
+}
+
+.pickup-input-container .search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+.date-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 194px;
+}
+
+.time-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  width: 194px;
+}
+
+.container mt-5 .calendar-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: rgb(255, 244, 244);
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #406a8d;
+
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 400px;
+}
+
+.search-button:hover {
+  background-color: #b6d1e7;
+}

@@ -1,0 +1,177 @@
+:root {
+  --primary: #406A8D;
+  --secondary: #F5F5F5;
+  --white: #fff;
+}
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary) !important;
+  height: 100vh;        
+  background-size: cover;
+  background-repeat: no-repeat;           
+  background-position: center;
+  background-attachment: fixed;                                
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.left.side {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.right.side {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right.side img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+
+.input-box{
+  width: 380px;
+  box-sizing: border-box;
+}
+.loginhead{
+  
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 45px;
+  color: var(--primary);
+  font-size: 30px;
+  
+}
+.signuphead{
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 45px;
+  color: var(--primary);
+}
+.input-field{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0 10px 0 10px;
+}
+.input{
+  height: 45px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  outline: none;
+  margin-bottom: 20px;
+  color: #40414a;
+}
+.input-box .input-field label{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  pointer-events: none;
+  transition: .5s;
+}
+.input-field .input:focus ~ label{
+  top: -10px;
+  font-size: 13px;
+}
+.input-field .input:valid ~ label{
+  top: -10px;
+  font-size: 13px;
+  color: #5d5076;
+}
+.input-field .input:focus, .input-field .input:valid{
+  border-bottom: 1px solid #406A8D;
+}
+
+.form__label {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 13;
+  color: black;
+  pointer-events: none;
+  transition: 0.2s;
+}
+
+.forgot-password {
+  color: var(--primary);
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+	text-align: right;
+  color: black;
+ 
+}
+
+.submit {
+  margin-top: 20px;
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  background-color: #ececec;
+  color: var(--black);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  
+}
+.submit:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.signup-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.signup-button {
+  color: var(--primary);
+  text-decoration: none;
+ 
+}
+
+
+/* Reset input
+.form-group input:required,
+.form-group input:invalid {
+  box-shadow: none;
+} */
+

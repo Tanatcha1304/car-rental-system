@@ -1,0 +1,73 @@
+:root {
+    --primary: #406A8D;
+    --secondary: #F5F5F5;
+    --white: #fff;
+  }
+  *{
+    font-family: 'Montserrat', sans-serif;
+  }
+body {
+    margin: 0;
+    padding: 0;      
+  }
+  
+  .container {
+    background-image: url("https://i.ibb.co/Xjkkg0N/IMG-8887.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+  }
+
+  .rectangle {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.rectangle h2 {
+    margin-top: -20%;
+    color: var(--primary);
+    font-weight: 400;
+    font-size: 30px;
+    
+}
+
+.rectangle .image {
+    max-width: 70%;
+    max-height: 70%;
+    object-fit: contain;
+    margin-top: 2%;
+}
+  
+.submit {
+    position: absolute;
+    left: 45%;
+    margin-top: 12%;
+    width: 10%;
+    height: 45px;
+    padding: 10px;
+    background-color: #ececec;
+    color: var(--black);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    
+  }
+  .submit:hover {
+    background-color: var(--primary);
+    color: var(--white);
+  }
+  
+  
